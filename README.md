@@ -1,21 +1,24 @@
-AI Chat with Custom Data
-This project is an AI chat application demonstrating how to interact with custom data using an AI language model. It’s currently in early preview, so your feedback is welcome! Please consider taking a brief survey.
+# 🚀 AI CHAT WITH CUSTOM DATA
 
-Note:
-Before running this project, you need to configure API keys or endpoints for your chosen AI model provider. See details below.
+This project is an **AI chat application** demonstrating how to interact with **custom data** using an AI language model.  
+⚠️ **Currently in EARLY PREVIEW** — your feedback is highly appreciated! Please consider taking a [**brief survey**](https://aka.ms/dotnet-chat-templatePreview2-survey).
 
-Configure the AI Model Provider
-If you want to use models hosted by GitHub Models, you must create a GitHub personal access token with models:read permission only (no additional scopes). For guidance, see:
+---
 
-Prototyping with AI models
+### ⚙️ NOTE:
+Before running this project, you **MUST CONFIGURE** API keys or endpoints for your chosen AI model provider. See details below.
 
-Managing your personal access tokens
+---
 
-To configure the token for this project using .NET User Secrets, run:
-cd <<your-project-directory>>
+### 🔐 CONFIGURE THE AI MODEL PROVIDER
+
+To use models hosted by **GitHub Models**, you need a **GitHub personal access token** with the `models:read` permission **ONLY** (no other scopes). For help, visit:  
+
+- 📚 [Prototyping with AI models](https://docs.github.com/github-models/prototyping-with-ai-models)  
+- 🔑 [Managing your personal access tokens](https://docs.github.com/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+Run these commands to configure your token with .NET User Secrets:
+
+```bash
+cd <<YOUR-PROJECT-DIRECTORY>>
 dotnet user-secrets set GitHubModels:Token YOUR-TOKEN
-
-How to Use Your Own Data
-You can clone this repository, then replace or add your own PDF documents to customize the data your AI chat app uses. Simply update the references to your PDF files in the project to have the AI read and answer questions based on your documents.
-
-Feel free to modify and enhance the project to suit your specific needs!
