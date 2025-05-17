@@ -1,0 +1,53 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio temporary files
+.vs/
+*.vsp
+*.vspscc
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Dotnet tools
+.dotnet/
+
+# Rider IDE files
+.idea/
+
+# Logs
+*.log
+
+# ASP.NET
+wwwroot/
+
+# Publish outputs
+publish/
+
+# AI model caches or temp files (if any)
+**/mlnet_cache/
+**/model_cache/
+
+# Secrets and settings
+appsettings.Secrets.json
+appsettings.Development.json
+
+# VS Code workspace settings
+.vscode/
+
+# Files with sensitive info or credentials
+*.pfx
+*.key
+*.pem
+
+# Ignore generated docs
+docs/**/obj/
+docs/**/bin/
