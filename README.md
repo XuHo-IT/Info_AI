@@ -1,7 +1,6 @@
 # 🚀 AI CHAT WITH CUSTOM DATA
 
-This project is an **AI chat application** demonstrating how to interact with **custom data** using an AI language model.  
-⚠️ **Currently in EARLY PREVIEW** — your feedback is highly appreciated! Please consider taking a [**brief survey**](https://aka.ms/dotnet-chat-templatePreview2-survey).
+This project is an **AI chat application** demonstrating how to interact with **custom data** using an AI language model.
 
 ---
 
