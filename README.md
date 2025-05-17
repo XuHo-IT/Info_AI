@@ -1,19 +1,21 @@
-# AI Chat with Custom Data
+AI Chat with Custom Data
+This project is an AI chat application demonstrating how to interact with custom data using an AI language model. It’s currently in early preview, so your feedback is welcome! Please consider taking a brief survey.
 
-This project is an AI chat application that demonstrates how to chat with custom data using an AI language model. Please note that this template is currently in an early preview stage. If you have feedback, please take a [brief survey](https://aka.ms/dotnet-chat-templatePreview2-survey).
+Note:
+Before running this project, you need to configure API keys or endpoints for your chosen AI model provider. See details below.
 
->[!NOTE]
-> Before running this project you need to configure the API keys or endpoints for the providers you have chosen. See below for details specific to your choices.
+Configure the AI Model Provider
+If you want to use models hosted by GitHub Models, you must create a GitHub personal access token with models:read permission only (no additional scopes). For guidance, see:
 
-# Configure the AI Model Provider
-To use models hosted by GitHub Models, you will need to create a GitHub personal access token with `models:read` permissions, but no other scopes or permissions. See [Prototyping with AI models](https://docs.github.com/github-models/prototyping-with-ai-models) and [Managing your personal access tokens](https://docs.github.com/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) in the GitHub Docs for more information.
+Prototyping with AI models
 
-From the command line, configure your token for this project using .NET User Secrets by running the following commands:
+Managing your personal access tokens
 
-```sh
+To configure the token for this project using .NET User Secrets, run:
 cd <<your-project-directory>>
 dotnet user-secrets set GitHubModels:Token YOUR-TOKEN
-```
 
-Learn more about [prototyping with AI models using GitHub Models](https://docs.github.com/github-models/prototyping-with-ai-models).
+How to Use Your Own Data
+You can clone this repository, then replace or add your own PDF documents to customize the data your AI chat app uses. Simply update the references to your PDF files in the project to have the AI read and answer questions based on your documents.
 
+Feel free to modify and enhance the project to suit your specific needs!
